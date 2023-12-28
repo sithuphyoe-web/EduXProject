@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* navigation section  */
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    top: 0;
+    position: sticky;
+    overflow: visible;
+}
+nav ul{
+    list-style-type: none;
+}
+.logo{
+    float: left;
+    padding: auto;
+    margin-right: 20px;
+}
+.logo .logoText {
+    display: block;
+    padding: 10px;
+    color: rgb(59, 126, 202);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul li {
+    float: left;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: grey;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px 20px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+li a:hover {
+    background-color: rgb(112, 167, 230);
+    color: white;
+}
+.btn {
+    float: right;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: rgb(60, 118, 218);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.btn:hover {
+    background-color: rgb(92, 140, 222);
+}
+/* section menu  */
+.mainBox {
+    width: 100%;
+    height: 400px;
+}
+.menu {
+    float: left;
+    width: 50%;
+}
+.menu img {
+    width: 500px;
+    border-radius: 50%;
+    margin: 20px 50px;
+}
+.menuText h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.menuText p {
+    margin-top: 20px;
+    text-align: start;
+    font-size: 15px;
+    line-height: 30px;
+}
+.courses {
+    display: inline-block;
+    /* width: 100px; */
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: rgb(65, 123, 190);
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: .5s;
+}
+.courses a {
+    text-decoration: none;
+    color: white;
+}
+.courses:hover {
+    background-color: rgb(91, 140, 196);
+    /* padding: 10px 30px; */
+}
+
+/* courses details  */
+/* courses title  */
+.container {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: aquamarine; */
+    position: relative;
+}
+.titleBox {
+    width: 100%;
+    height: 50px;
+    /* background-color: aliceblue; */
+}
+.left {
+    float: left;
+}
+.left h1 {
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right {
+    float: right;
+}
+.right button {
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(91, 140, 196);
+    cursor: pointer;
+}
+.right button:hover {
+    border: 1px solid rgb(38, 96, 161);
+    background-color: whitesmoke;
+}
+
+.gallery {
+    /* border: 1px solid black; */
+    float: left;
+    margin: 10px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.text {
+    text-align: center;
+    padding: 5px 0;
+}
+.gallery:hover {
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.5);
+}
+section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* footer  */
+footer {
+    width: 100%;
+}
+footer p {
+    margin-top: 5px;
+    padding: 20px;
+}
+.social a{
+    display: block;
+    text-decoration: none;
+    margin: auto;
+    float: right;
+    padding: 10px;
+}
